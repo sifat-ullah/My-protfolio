@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Roboto";
+    scroll-behavior: smooth;
+    color: white;
+   
+}
+body{
+    background-color: rgb(155, 232, 255);
+}
+
+header{
+    display: flex;
+    background-color: rgb(29, 31, 36);
+    width: 100%;
+    height: 15vh;
+    justify-content: space-between;
+    position: fixed;
+    
+}
+.logo{
+    margin-left: 5%;
+}
+.logo img{
+    margin-top: 13%;
+    height: 80px;
+    width: 80px;
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: rgb(238, 97, 97);
+    border-bottom: 3px solid rgb(70, 12, 12); 
+}
+.heading1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading1 h2{
+    width: 400px;
+    height: 100px;
+    font-size:30px;
+    background-color: rgb(71, 85, 110);
+    margin-top:100px;
+    color:rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px;
+}
+#skill{
+    background-color: rgb(133, 74, 187);
+}
+.skills{
+    margin: 0px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:50px;
+    margin-top: 30px;
+   
+    
+}
+.gridbox{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(43, 56, 65);
+    border: 5px solid rgb(34, 35, 36);
+    border-radius: 20px;
+    box-shadow: 2px rgb(94, 91, 91);
+    margin: 20px 0px;
+}
+#html_part{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;  
+}
+
+#logo1{
+    background-image: url(/Images/html_logo.jpg);
+    background-size:cover;
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+#pera1{
+    padding: 10px;
+    
+}
+#css_part{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;  
+  }
+
+#logo2{
+    background-image: url(/Images/css_logo.png);
+    background-size:cover;
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+#pera2{
+    padding: 9px; 
+}
+#javascript_part{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;  
+  }
+
+#logo3{
+    background-image: url(/Images/JavaScript-logo3.png);
+    background-size:cover;
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+#pera3{
+    padding: 10px; 
+}
+#reactjs_part{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;  
+  }
+
+#logo4{
+    background-image: url(/Images/react.jpg);
+    background-size:contain;
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+#pera4{
+    padding: 10px; 
+}
+#notejs_part{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;  
+  }
+
+#logo5{
+    background-image: url(/Images/notejslogo.jpg);
+    background-size:contain;
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+#pera5{
+    padding: 10px; 
+}
+#MongoDB_part{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;  
+  }
+
+#logo6{
+    background-image: url(/Images/mongobd.jpg);
+    background-size:cover;
+    border-radius: 20px 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+#pera6{
+    padding: 10px; 
+}
